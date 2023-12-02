@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0px 0px;
+        }
+       
+    .firstbg::before{
+        background-image: url('/bg1.jpg');
+       background-size: cover;
+        content: "";
+        top: 0;
+        left: 0;
+        height: 18rem;
+        width: 84rem;
+        position: absolute;
+        z-index: -1;    
+        opacity: 0.9;
+    }
+    .one ul li :hover{
+        color: yellowgreen;
+        box-shadow: 4px 4px 4px greenyellow;
+        /* text-shadow: 4px 4px 4px green; */
+    }
+    .one::before{
+        background-color: black;
+        content: "";
+        top: 0;
+        left: 0;
+        height: 3rem;
+        width: 84rem;
+        position: absolute;
+        z-index: -1;    
+        opacity: 0.4;
+
+    }
+    .one{
+      position: sticky;
+      top: 0;
+      left: 0;
+    }
+    .one ul{
+        display: flex;
+        height: 3rem;
+    }
+    .one ul li {
+        list-style: none;
+        margin: 1rem 2rem;
+    }
+    .one ul li a{
+      text-decoration: none;
+      color: white;
+    }
+    .two h1{
+        margin-top: 5vw;
+        margin-left: 25vw;
+        color: white;
+    }
+    .two p{
+      height: 3rem;
+      padding: 1vw 18vw 0vw 21vw;
+      color: white;
+    }
+    .two a{
+       margin-left: 45vw ;
+       margin-top: 1vw;
+       height: 2vw;
+       width: 2vw;
+       text-decoration: none;
+       color: white;
+       border: 2px solid white;
+       border-radius: 5px;
+    }
+    .none {
+        margin-top: 5rem;
+        padding-left: 46vw;
+    }
+
+    .containers{
+        display: flex;
+        justify-content: space-around;
+        margin-top: 2rem;
+        
+    }
+.cont1{
+    border: 2px solid rgba(255, 0, 0, 0.445);
+    height: 18rem;
+    width: 22rem;
+    background-color: antiquewhite;
+    border-radius: 14px;
+}
+.cont2{
+    border: 2px solid rgba(255, 0, 0, 0.445);
+    height: 18rem;
+    width: 22rem;
+    background-color: antiquewhite;
+    border-radius: 14px;
+}
+.cont3{
+    border: 2px solid rgba(255, 0, 0, 0.445);
+    height: 18rem;
+    width: 22rem;
+    background-color: antiquewhite;
+    border-radius: 14px;
+}
+.cont1 img{
+   padding: 1rem 0rem 0rem 8rem;
+}
+.cont2 img{
+   padding: 1rem 0rem 0rem 8rem;
+}
+.cont3 img{
+padding: 1rem 0rem 0rem 8rem;
+}
+.cont1 h3{
+    padding-left: 8rem;
+}
+  .cont2 h3{
+    padding-left: 9rem;
+  }  
+.cont3 h3{
+    padding-left: 8rem;
+}
+.cont1 p{
+    padding: 0rem 1rem 0rem 1rem;
+}
+  .cont2 p{
+    padding: 0rem 1rem 0rem 1rem;
+  }  
+.cont3 p{
+    padding: 0rem 1rem 0rem 1rem;
+}
+.con {
+    margin-top: 3rem;
+    height: 13rem;
+    width: 84rem;
+    border: 1px solid blueviolet;
+}
+.logo{
+    display: flex;
+    justify-content: space-around;
+
+}
+.con::before{
+    background-image: url('/bg.jpg');
+       background-size: cover;
+        content: "";
+        top: 50;
+        left: 0;
+        height: 13rem;
+        width: 84rem;
+        position: absolute;
+        z-index: -1;    
+        opacity: 0.4;
+}
+.con h2{
+    margin: 1rem 38rem;
+}
+.logo img{
+    height: 4rem;
+    width: 5rem;
+    padding: 2rem 2rem;
+}
+.logo{
+    margin-left: 20rem;
+    width: 47rem;
+}
+.con2::before{
+    background-image: url('/contact.jpg');
+       background-size: cover;
+        content: "";
+        top: 60;
+        left: 0;
+        height: 19rem;
+        width: 84rem;
+        position: absolute;
+        z-index: -1;    
+        opacity: 0.6;
+}
+.con2{
+    border: 1px solid red;
+    height: 19rem;
+    width: 84rem;
+}
+.con2 h2{
+    margin: 1rem 38rem;
+}
+.con2 h4{
+    margin-left: 29rem;
+}
+.con2 input{
+    margin-left: 29rem;
+    width: 26rem;
+}
+.redbg{
+    margin-top: 1rem;
+    background-color: brown;
+}
+
+        </style>
+</head>
+<body>
+    <div class="firstbg">
+        <div class="one">
+            <ul>
+                <li><a href="#"> HOME</a></li>
+                <li><a href="#"> SERVICES</a></li>
+                <li><a href="#"> ABOUT US</a></li>
+                <li><a href="#"> CONTACT US</a></li>
+            </ul>
+        </div>
+        <div class="two">
+            <h1>WELLCOME TO OUR FOOD DELIVERY WEBSITE</h1>
+            <P>from swanky upscale restaurants to the cosiest hidden gems serving the most incredible food our website covers it all. explore menu and millions of restaurants photos and reviews from user just like you to find your next great meal.</P>
+            <a href="">order now</a>
+        </div>   
+    </div>
+    
+    <div class="none">
+        <h2>our services</h2>
+    </div>
+    <div class="containers">
+        <div class="cont1">
+           <img src="/1.png" alt="error" width="90px" height="90px">
+           <h3>food odering</h3>
+           <p>Explore our delectable menu and indulge in a seamless online ordering experience. From savory starters to sweet endings, we bring culinary delights to your doorstep. Fast, easy, and delicious – order now and elevate your dining experience with us!</p>
+
+        </div>
+        <div class="cont2">
+           <img src="/2.png" alt="error"  width="90px" height="90px">
+           <h3>catering</h3>
+           <p>Immerse your guests in a culinary journey featuring exquisite dishes and impeccable service. From corporate gatherings to special celebrations, our expert team curates unforgettable experiences. Let us bring the feast to your event, ensuring every moment is infused with delectable memories.</p>
+        </div>
+        <div class="cont3">
+            <img src="/3.png" alt="error"  width="90px" height="90px">
+            <h3>bulk ordering</h3>
+            <p>From office lunches to family gatherings, our platform simplifies large-scale food orders. Choose from our diverse menu, place bulk orders with ease, and enjoy prompt delivery. Elevate your group dining experience with convenience and flavor order in bulk now!</p>
+        </div>
+     </div>
+    
+     <div class="con">
+            <h2>our clients</h2>
+        <div class="logo">
+
+         <img src="/logo1.png" alt="error">
+
+         <img src="/logo4.png" alt="error">
+
+         <img src="/logo2.png" alt="error">
+
+         <img src="/logo3.png" alt="error">
+
+         <img src="/logo2.png" alt="error">
+
+         <img src="/logo4.png" alt="error">
+
+         </div>
+    </div>
+
+    <div class="con2">
+        <h2>contact us</h2>
+         <form>
+           <h4> name:</h4>
+           <input type="text" placeholder="enter name">
+           <h4> email: </h4>
+           <input type="email" placeholder="enter email">
+           <h4>phone number:</h4>
+           <input type="number" placeholder="enter phone number">
+           <h4> message:</h4>
+           <input type="text" placeholder="enter message">
+           <input class="redbg" type="submit">
+         </form>
+     </div>
+</body>
+</html>
